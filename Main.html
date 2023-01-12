@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessNumber</title>
+    <style>
+        input {
+            width: 50px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+
+        <h3 id="guesses"> <br></h3>
+
+        <input id="firstInput" type="number" min="0" max="9" value="0">
+        <input id="secondInput" type="number" min="0" max="9" value="0">
+        <input id="thirdInput" type="number" min="0" max="9" value="0">
+        <input id="forthInput" type="number" min="0" max="9" value="0">
+
+        <br><br>
+
+        <button id="btn" type="button" onclick="checkbtn()">Check It!</button>
+
+    </div>
+
+    <h3>hint:<br><span style="color:lightgreen;"> GREEN </span> means Correct.<br><span style="color: orange;"> ORANGE
+        </span>means the number is higher than this.<br><span style="color: blue;"> BLUE </span>means the number is
+        lower than this.</h3>
+
+
+    <script src="Commands.js"></script>
+</body>
+
+</html>
