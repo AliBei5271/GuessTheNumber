@@ -10,6 +10,12 @@ function checkbtn() {
     var tho = document.getElementById('secondInput');
     var se = document.getElementById('thirdInput');
     var chahar = document.getElementById('forthInput');
+    
+    if ((yek == firstNumber) && (tho == secondNumber) && (se == thirdNumber) && (chahar == forthNumber)) {
+        console.log('shod');
+    } else {
+        console.log('nashd');
+    }
 
 
 
@@ -82,16 +88,29 @@ function checkbtn() {
         chahar.style.backgroundColor = 'orange'; //lower
 
     }
+
+
+
+
+
 };
 
 
-// if ((yek.style.backgroundColor = 'lightgreen')&&(tho.style.backgroundColor = 'lightgreen')&&(se.style.backgroundColor = 'lightgreen')&&(chahar.style.backgroundColor = 'lightgreen')){
-// document.getElementById('btn').innerHTML='reset the game';
-// console.log('shod');
-// }else{
+
+
+// if ((yekk == firstNumber) && (thoo == secondNumber) && (see == thirdNumber) && (chaharr == forthNumber)) {
+//     console.log('shod');
+// } else {
 //     console.log('nashd');
 // }
 
 
 
 
+var counter = document.getElementById('counter');
+var adad = 0;
+
+btn.addEventListener('click', function alibei() {
+    adad++;
+    counter.innerHTML = 'You Guessed ' + adad + ' Times';
+})
