@@ -114,3 +114,21 @@ btn.addEventListener('click', function alibei() {
     adad++;
     counter.innerHTML = 'You Guessed ' + adad + ' Times';
 })
+
+
+function redfunc() {
+    document.body.style.backgroundColor = 'red';
+}
+
+function bluefunc() {
+    document.body.style.backgroundColor = 'aqua';
+}
+
+function orangefunc() {
+    document.body.style.backgroundColor = 'orange';
+}
+
+function grayfunc() {
+    document.body.style.backgroundColor = 'gray';
+}
+

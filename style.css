@@ -63,5 +63,37 @@ i{
     font-size: 25px;
     text-decoration: none;
     color: black;
-    left: 2;
+}
+
+
+.bred{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bblue{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.borange{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bgray{
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
 }
