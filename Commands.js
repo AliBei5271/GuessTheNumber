@@ -22,13 +22,13 @@ function checkbtn() {
     // ---------------- YEK -----------------------------------------
     if (yek.value == firstNumber) {
 
-        yek.style.backgroundColor = 'lightgreen';// true
+        yek.style.backgroundColor = '#5bff4f';// true
 
     }
 
     else if (yek.value > firstNumber) {
 
-        yek.style.backgroundColor = 'aqua'; // higher
+        yek.style.backgroundColor = '#1d69f5'; // higher
 
     }
 
@@ -40,13 +40,13 @@ function checkbtn() {
 
     if (tho.value == secondNumber) {
 
-        tho.style.backgroundColor = 'lightgreen';// true
+        tho.style.backgroundColor = '#5bff4f';// true
 
     }
 
     else if (tho.value > secondNumber) {
 
-        tho.style.backgroundColor = 'aqua'; // higher
+        tho.style.backgroundColor = '#1d69f5'; // higher
 
     }
 
@@ -57,13 +57,13 @@ function checkbtn() {
     // ---------------- SE -----------------------------------------
 
     if (se.value == thirdNumber) {
-        se.style.backgroundColor = 'lightgreen';// true
+        se.style.backgroundColor = '#5bff4f';// true
 
     }
 
     else if (se.value > thirdNumber) {
 
-        se.style.backgroundColor = 'aqua'; // higher
+        se.style.backgroundColor = '#1d69f5'; // higher
 
     }
 
@@ -75,12 +75,12 @@ function checkbtn() {
     // ---------------- CHAR -----------------------------------------
 
     if (chahar.value == forthNumber) {
-        chahar.style.backgroundColor = 'lightgreen';// true
+        chahar.style.backgroundColor = '#5bff4f';// true
 
     }
 
     else if (chahar.value > forthNumber) {
-        chahar.style.backgroundColor = 'aqua'; // higher
+        chahar.style.backgroundColor = '#1d69f5'; // higher
 
     }
 
@@ -121,7 +121,7 @@ function redfunc() {
 }
 
 function bluefunc() {
-    document.body.style.backgroundColor = 'aqua';
+    document.body.style.backgroundColor = '#12bebe';
 }
 
 function orangefunc() {
